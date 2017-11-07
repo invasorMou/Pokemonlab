@@ -32,21 +32,21 @@ section  .pkm {
   width: 200px;
   /*margin-top: 200px;*/
   opacity: 0;;
-  transition: 1s;
+  transition: 0.5s;
 }
 
 section div {
-  transition: 0.8s;
+  transition: 0.5s;
 }
 
 section div {
-  transition: 0.9s;
+  transition: 0.5s;
 }
 
 .bulb {
   position: absolute;
   margin-top: 300px;
-  margin-left: -10px;
+  margin-left: 120px;
 }
 
 .bdata {
@@ -54,7 +54,7 @@ section div {
   background: radial-gradient(darkgreen, green, lightgreen);
   /*background-color: lightgreen;*/
   margin-top: 195px;
-  margin-left:-60px;
+  margin-left: 60px;
   height: 325px;
   width: 325px;
   opacity: 0;
@@ -64,7 +64,7 @@ section div {
 .nbul {
   position: absolute;
   margin-top: 230px;
-  margin-left: 50px;
+  margin-left: 170px;
   font-size: 13px;
   color: white;
   opacity: 0;
@@ -74,7 +74,7 @@ section div {
 .char {
   position: absolute;
   margin-top: 250px;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 .cdata {
@@ -82,7 +82,7 @@ section div {
   background: radial-gradient(darkred, red,pink);
   /*background-color: pink;*/
   margin-top: 170px;
-  margin-left:-75px;
+  margin-left:-55px;
   height: 350px;
   width: 350px;
   opacity: 0;
@@ -92,7 +92,7 @@ section div {
 .ncha {
   position: absolute;
   margin-top: 200px;
-  margin-left: 35px;
+  margin-left: 55px;
   font-size: 13px;
   color: white;
   opacity: 0;
@@ -111,7 +111,7 @@ h1 {
 .squi {
   position: absolute;
   margin-top: 280px;
-  margin-left: 10px;
+  margin-left: -55px;
 }
 
 .sdata {
@@ -119,7 +119,7 @@ h1 {
   background: radial-gradient(darkblue, blue, lightblue);
   /*background-color: lightblue;*/
   margin-top: 195px;
-  margin-left:-60px;
+  margin-left: -120px;
   height: 325px;
   width: 325px;
   opacity: 0;
@@ -129,7 +129,7 @@ h1 {
 .nsqu {
   position: absolute;
   margin-top: 220px;
-  margin-left: 60px;
+  margin-left: -20px;
   font-size: 13px;
   color: white;
   opacity: 0;
@@ -163,4 +163,23 @@ section:hover div {
 
 section:hover p {
   opacity: 1;
+}
+
+.pokelab {
+  position: absolute;
+  z-index: -1;
+  max-width: 100%;
+  transition: 0.5s;
+}
+
+.verb:hover ~ .pokelab {
+  transform: matrix(1.5, 0, 0, 1.5, 300, 0);
+}
+
+.verc:hover ~ .pokelab {
+  transform: matrix(1.5, 0, 0, 1.5, 0, 0);
+}
+
+.vers:hover ~ .pokelab {
+  transform: matrix(1.5, 0, 0, 1.5, -300, 0);
 }
