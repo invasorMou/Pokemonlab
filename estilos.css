@@ -32,6 +32,7 @@ section  .pkm {
   width: 200px;
   /*margin-top: 200px;*/
   opacity: 0;;
+<<<<<<< HEAD
   transition: 0.5s;
 }
 
@@ -41,12 +42,27 @@ section div {
 
 section div {
   transition: 0.5s;
+=======
+  transition: 1s;
+}
+
+section div {
+  transition: 0.8s;
+}
+
+section div {
+  transition: 0.9s;
+>>>>>>> b0f28fed1275e582eb46f6cc750d14e37bae5f9b
 }
 
 .bulb {
   position: absolute;
   margin-top: 300px;
+<<<<<<< HEAD
   margin-left: 120px;
+=======
+  margin-left: -10px;
+>>>>>>> b0f28fed1275e582eb46f6cc750d14e37bae5f9b
 }
 
 .bdata {
@@ -54,7 +70,11 @@ section div {
   background: radial-gradient(darkgreen, green, lightgreen);
   /*background-color: lightgreen;*/
   margin-top: 195px;
+<<<<<<< HEAD
   margin-left: 60px;
+=======
+  margin-left:-60px;
+>>>>>>> b0f28fed1275e582eb46f6cc750d14e37bae5f9b
   height: 325px;
   width: 325px;
   opacity: 0;
@@ -64,7 +84,11 @@ section div {
 .nbul {
   position: absolute;
   margin-top: 230px;
+<<<<<<< HEAD
   margin-left: 170px;
+=======
+  margin-left: 50px;
+>>>>>>> b0f28fed1275e582eb46f6cc750d14e37bae5f9b
   font-size: 13px;
   color: white;
   opacity: 0;
@@ -74,7 +98,11 @@ section div {
 .char {
   position: absolute;
   margin-top: 250px;
+<<<<<<< HEAD
   margin-left: 40px;
+=======
+  margin-left: 20px;
+>>>>>>> b0f28fed1275e582eb46f6cc750d14e37bae5f9b
 }
 
 .cdata {
@@ -82,7 +110,11 @@ section div {
   background: radial-gradient(darkred, red,pink);
   /*background-color: pink;*/
   margin-top: 170px;
+<<<<<<< HEAD
   margin-left:-55px;
+=======
+  margin-left:-75px;
+>>>>>>> b0f28fed1275e582eb46f6cc750d14e37bae5f9b
   height: 350px;
   width: 350px;
   opacity: 0;
@@ -92,7 +124,11 @@ section div {
 .ncha {
   position: absolute;
   margin-top: 200px;
+<<<<<<< HEAD
   margin-left: 55px;
+=======
+  margin-left: 35px;
+>>>>>>> b0f28fed1275e582eb46f6cc750d14e37bae5f9b
   font-size: 13px;
   color: white;
   opacity: 0;
@@ -111,7 +147,11 @@ h1 {
 .squi {
   position: absolute;
   margin-top: 280px;
+<<<<<<< HEAD
   margin-left: -55px;
+=======
+  margin-left: 10px;
+>>>>>>> b0f28fed1275e582eb46f6cc750d14e37bae5f9b
 }
 
 .sdata {
@@ -119,7 +159,11 @@ h1 {
   background: radial-gradient(darkblue, blue, lightblue);
   /*background-color: lightblue;*/
   margin-top: 195px;
+<<<<<<< HEAD
   margin-left: -120px;
+=======
+  margin-left:-60px;
+>>>>>>> b0f28fed1275e582eb46f6cc750d14e37bae5f9b
   height: 325px;
   width: 325px;
   opacity: 0;
@@ -129,7 +173,11 @@ h1 {
 .nsqu {
   position: absolute;
   margin-top: 220px;
+<<<<<<< HEAD
   margin-left: -20px;
+=======
+  margin-left: 60px;
+>>>>>>> b0f28fed1275e582eb46f6cc750d14e37bae5f9b
   font-size: 13px;
   color: white;
   opacity: 0;
@@ -164,6 +212,7 @@ section:hover div {
 section:hover p {
   opacity: 1;
 }
+<<<<<<< HEAD
 
 .pokelab {
   position: absolute;
@@ -183,3 +232,5 @@ section:hover p {
 .vers:hover ~ .pokelab {
   transform: matrix(1.5, 0, 0, 1.5, -300, 0);
 }
+=======
+>>>>>>> b0f28fed1275e582eb46f6cc750d14e37bae5f9b
